@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 700'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#14002f'/><stop offset='.45' stop-color='#43208f'/><stop offset='1' stop-color='#041b4f'/>
+    </linearGradient>
+    <radialGradient id='r1'><stop offset='0' stop-color='#ff3fb4' stop-opacity='.75'/><stop offset='1' stop-color='#ff3fb4' stop-opacity='0'/></radialGradient>
+    <radialGradient id='r2'><stop offset='0' stop-color='#32d5ff' stop-opacity='.75'/><stop offset='1' stop-color='#32d5ff' stop-opacity='0'/></radialGradient>
+  </defs>
+  <rect width='1600' height='700' fill='url(#g)'/>
+  <circle cx='380' cy='160' r='260' fill='url(#r1)'/>
+  <circle cx='1180' cy='180' r='320' fill='url(#r2)'/>
+  <g fill='none' stroke='white' stroke-opacity='.35' stroke-width='10'>
+    <path d='M160 0 L330 420'/><path d='M500 0 L650 420'/><path d='M920 0 L820 420'/><path d='M1300 0 L1100 420'/>
+  </g>
+  <g fill='#050816'>
+    <path d='M0 520 Q170 450 320 520 T640 520 T960 520 T1280 520 T1600 520 V700 H0Z'/>
+  </g>
+  <g fill='#0f1532'>
+    <circle cx='110' cy='560' r='55'/><circle cx='210' cy='590' r='70'/><circle cx='330' cy='560' r='60'/><circle cx='460' cy='595' r='75'/><circle cx='620' cy='565' r='62'/><circle cx='760' cy='600' r='78'/><circle cx='930' cy='560' r='58'/><circle cx='1060' cy='595' r='76'/><circle cx='1220' cy='565' r='64'/><circle cx='1400' cy='590' r='80'/>
+  </g>
+  <g stroke='#0f1532' stroke-width='24' stroke-linecap='round'>
+    <path d='M140 520 l-35 -120 M150 510 l50 -120 M425 535 l-20 -145 M770 540 l60 -150 M1080 540 l-45 -135 M1370 535 l40 -135'/>
+  </g>
+</svg>
