@@ -1,0 +1,31 @@
+:root{
+  --navy:#071739;
+  --navy-2:#0e2553;
+  --pink:#e83e8c;
+  --pink-2:#ff5aa9;
+  --purple:#6f42c1;
+  --light:#f7f8fc;
+  --text:#14213d;
+  --muted:#667085;
+  --card:#ffffff;
+  --border:#dbe3f2;
+}
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--light);color:var(--text);margin:0}
+a{text-decoration:none}
+.navbar{background:linear-gradient(90deg,var(--navy),#0b234c)}
+.navbar-brand{font-weight:800;font-size:1.45rem}.navbar .nav-link{color:#fff!important;opacity:.92}.navbar .nav-link.active,.navbar .nav-link:hover{color:#fff!important;opacity:1}
+.hero{position:relative;background:linear-gradient(rgba(7,23,57,.35),rgba(7,23,57,.75)),url('../assets/hero.svg') center/cover no-repeat;min-height:370px;display:flex;align-items:center;color:#fff}
+.hero.compact{min-height:230px}
+.hero h1{font-size:clamp(2.7rem,7vw,5rem);font-weight:800;letter-spacing:-1px}.hero.compact h1{font-size:clamp(2.4rem,6vw,4rem)}
+.hero p.lead{font-weight:700;font-size:clamp(1.1rem,2.2vw,1.55rem)}
+.search-wrap{max-width:680px;margin:1.6rem auto 0}.search-wrap .form-control{height:54px;border-radius:12px 0 0 12px}.search-wrap .btn{border-radius:0 12px 12px 0;padding-inline:2rem}
+.btn-stage{background:linear-gradient(90deg,var(--pink),var(--pink-2));color:#fff;border:0;font-weight:700}.btn-stage:hover{color:#fff;filter:brightness(.95)}
+.section-title{font-weight:800}.event-card{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 8px 24px rgba(18,38,80,.08);height:100%}.event-card img{width:100%;aspect-ratio:16/10;object-fit:cover}.event-card .card-body{padding:1rem}.event-card h3,.event-card h5{font-weight:800}.event-meta{color:#52627a;font-size:.92rem;line-height:1.7}
+.cta{background:linear-gradient(rgba(66,32,143,.68),rgba(20,0,47,.76)),url('../assets/hero.svg') center/cover no-repeat;border-radius:18px;color:#fff;padding:3.2rem 1rem;text-align:center}.cta h2{font-weight:800}
+.site-footer{background:#eef2fa;border-top:1px solid var(--border);padding:2rem 0;color:#17233e}.socials{font-size:1.4rem;letter-spacing:.7rem}.filter-panel{background:#fff;border:1px solid var(--border);border-radius:0 0 14px 14px;padding:1.25rem;box-shadow:0 8px 22px rgba(18,38,80,.06)}
+.result-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:.75rem;display:flex;gap:1rem;align-items:center;box-shadow:0 5px 18px rgba(18,38,80,.05)}.result-card img{width:210px;max-width:34%;aspect-ratio:16/10;object-fit:cover;border-radius:10px}.result-card .content{flex:1}.result-card h3{font-size:1.25rem;font-weight:800}.pagination .page-link{color:var(--navy)}.pagination .active .page-link{background:var(--navy);border-color:var(--navy)}
+.detail-hero-img{width:100%;max-height:480px;object-fit:cover;border-radius:18px}.detail-title{font-weight:800;font-size:clamp(2rem,5vw,3.4rem)}.info-box,.description-box,.map-box{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem}.info-row{display:flex;gap:.6rem;align-items:flex-start;margin:.65rem 0}.info-row b{min-width:85px}.map-placeholder{height:280px;border-radius:12px;background:linear-gradient(135deg,#dce7f3,#f1f5f9);position:relative;overflow:hidden;border:1px solid #cbd5e1}.map-placeholder:before{content:'';position:absolute;inset:0;background-image:linear-gradient(30deg,transparent 45%,#b8c7d9 46% 48%,transparent 49%),linear-gradient(-30deg,transparent 45%,#c8d5e4 46% 48%,transparent 49%);background-size:110px 110px}.pin{position:absolute;left:53%;top:42%;transform:translate(-50%,-50%);font-size:2.2rem}.map-label{position:absolute;left:57%;top:35%;background:#fff;border-radius:10px;padding:.65rem .8rem;box-shadow:0 6px 18px rgba(0,0,0,.13);font-weight:700}
+.dev-note{display:none}
+@media (max-width:768px){.result-card{align-items:flex-start}.result-card img{width:140px;max-width:40%}.hero{min-height:330px}.search-wrap{padding:0 .6rem}.search-wrap .btn{padding-inline:1.1rem}.info-row b{min-width:74px}}
+@media (max-width:560px){.result-card{display:block}.result-card img{width:100%;max-width:100%;margin-bottom:.9rem}.hero h1{font-size:3rem}.event-card img{aspect-ratio:16/11}}
